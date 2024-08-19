@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7.5dp"
+    android:layout_marginTop="7.5dp"
+    android:id="@+id/resourceCard"
+    android:clickable="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Circular ImageView for the avatar -->
+        <ImageView
+            android:id="@+id/resourceAvatar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/copper_ore"
+            android:contentDescription="Resource Info" />
+
+        <!-- Contact name -->
+        <TextView
+            android:id="@+id/resourceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/resourceAvatar"
+            android:layout_alignTop="@id/resourceAvatar"
+            android:layout_marginStart="16dp"
+            android:text="Contact Name"
+            android:textSize="18sp" />
+
+        <!-- Contact details (phone number, email, etc.) -->
+        <TextView
+            android:id="@+id/resourceDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/resourceAvatar"
+            android:layout_below="@id/resourceName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="Phone Number or Email"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

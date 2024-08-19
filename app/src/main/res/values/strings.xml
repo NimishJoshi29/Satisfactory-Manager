@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SatisfactoryManager</string>
+    <string name="satisfactory_manager">Satisfactory Manager</string>
+    <string name="enter_production_rate">Enter Production Rate</string>
+</resources>

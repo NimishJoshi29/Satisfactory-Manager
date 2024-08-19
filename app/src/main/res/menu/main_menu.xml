@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save_button"
+        android:icon="@drawable/file_save"
+        android:iconTintMode="src_over"
+        android:iconTint="@color/material_dynamic_primary60"
+        android:title="Save Button"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>
